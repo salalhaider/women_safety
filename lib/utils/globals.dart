@@ -21,7 +21,7 @@ ValueNotifier<List<StoreProduct>> cart = ValueNotifier([]);
 const MediaQueryData? size = const MediaQueryData();
 // String? currentUser;
 
-final ThemeData bridgeLinxTheme = ThemeData(
+final ThemeData theme = ThemeData(
   primarySwatch: Colors.blueGrey,
   visualDensity: VisualDensity.adaptivePlatformDensity,
   fontFamily: 'Avenir',
